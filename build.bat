@@ -1,0 +1,1 @@
+docker build --tag youtube-dl:latest .

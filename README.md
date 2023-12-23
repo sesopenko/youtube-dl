@@ -9,22 +9,24 @@ A docker project for downloading videos from youtube.
 
 ## Usage
 
-build:
+Don't forget the quotes around urls or else it will try to download EVERYTHING! These instructions are for windows (because that's what I use).
+
+### 1. build:
 
 ```
 build
 ```
 
-get formats:
+### 2. get formats:
 
 ```
-formats <youtube-url>
+formats "<youtube-url>"
 ```
 
-download:
+### 3. download:
 
 ```
-download <format> <youtube-url>
+download <format> "<youtube-url>"
 ```
 
 files are stored in out/
